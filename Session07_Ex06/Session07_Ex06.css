@@ -1,0 +1,43 @@
+.big-1, .big-2, .small-item-1,.small-item-2, .small-item-3, .small-item-4{
+    background-color: #2C3E50;
+    color: white;
+}
+
+.box-1, .box-2{
+    display: flex;
+}
+
+.big-1, .big-2{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    height: 160px;
+}
+.big-1{
+    margin-bottom: 10px;
+}
+
+.small{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 90px 90px;
+    margin-left: 10px;
+}
+
+.small-item-1,.small-item-2, .small-item-3, .small-item-4{
+    text-align: center;
+    padding: 10px;
+}
+
+.small-item-1{
+    margin: 0 5px 5px 0;
+}
+.small-item-2{
+    margin: 0 0 5px 5px;
+}
+.small-item-3{
+    margin: 5px 5px 0 0;
+}
+.small-item-4{
+    margin: 5px 0 0 5px;
+}
