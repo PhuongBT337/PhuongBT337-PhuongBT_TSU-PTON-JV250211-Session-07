@@ -1,0 +1,23 @@
+.mainbox{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px 230px 230px;
+    grid-template-rows: 100px 100px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+#item8{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+#item9{
+    grid-column-end: 7;
+}
